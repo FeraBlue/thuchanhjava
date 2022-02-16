@@ -23,5 +23,6 @@ public class app2 {
       else System.out.println("He vo nghiem");
     else
       System.out.println("He co nghiem duy nhat" + " x =" + (dx/dd) + " va y = " +(dy/dd));
+      sc.close();
   }
 }
