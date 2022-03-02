@@ -6,7 +6,7 @@ public class App11 {
             for ( k = 0; k <= 4; ++k)
                 if (i * 10000 + j * 20000 + k * 50000 == 200000)
                     System.out.println("so to 10000 la " + i + " ,so to 20000 la  " + j + " ,so 50000 la " + k);
-                 
+              
       }
     }
     
