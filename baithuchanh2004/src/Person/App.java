@@ -1,0 +1,63 @@
+package Person;
+public class App {
+    public static void main(String[] args) throws Exception {
+        OnlineStudent onS = new OnlineStudent();
+        OfflineStudent offS = new OfflineStudent();
+        FullTimeEmployee ftEmp = new FullTimeEmployee();
+        PartTimeEmployee ptEmp = new PartTimeEmployee();
+        Customer ctm = new Customer();
+        VIPCustomer vipCtm = new VIPCustomer();
+        System.out.println("-----OfflineStudent-----");
+        offS.addName();
+        offS.addStudentID();   
+        offS.addAge();
+        offS.displayName();
+        offS.displayAge();
+        offS.displayStudentID();   
+        offS.PrintNumber();
+        System.out.println("-----OnlineStudent-----");
+        onS.addName();
+        onS.addStudentID();   
+        onS.addAge();
+        onS.addDevices();
+        onS.displayName();
+        onS.displayAge();
+        onS.displayStudentID();
+        onS.displayDevices();
+        onS.placeToStudy();
+        System.out.println("-----FullTimeEmployee-----");
+        ftEmp.addName();
+        ftEmp.addPosition();
+        ftEmp.addAge();
+        ftEmp.displayName();
+        ftEmp.displayAge();
+        ftEmp.displayPosition();
+        System.out.println("Salary: " + ftEmp.Salary());
+        ftEmp.typeOfEmployee();
+        System.out.println("-----PartTimeEmployee-----");
+        ptEmp.addName();
+        ptEmp.addPosition();
+        ptEmp.addAge();
+        ptEmp.displayName();
+        ptEmp.displayAge();
+        ptEmp.displayPosition();
+        System.out.println("Salary: " + ptEmp.Salary());
+        ptEmp.typeOfEmployee();
+        System.out.println("-----Customer-----");
+        ctm.addName();
+        ctm.addCustomerID();
+        ctm.addAge();
+        ctm.displayName();
+        ctm.displayAge();
+        ctm.HienIDKhachHang();
+        System.out.println("-----VIPCustomer-----");
+        vipCtm.addName();
+        vipCtm.addCustomerID();
+        vipCtm.addAge();
+        vipCtm.displayName();
+        vipCtm.displayAge();
+        vipCtm.HienIDKhachHang();
+        vipCtm.addPoint();
+       
+    }
+}
