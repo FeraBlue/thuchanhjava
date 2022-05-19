@@ -2,7 +2,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 
-public class App106 {
+public class App105 {
   public static void main(String[] args){
     TreeMap<Integer, Character> treeMap = new TreeMap<>();
     
